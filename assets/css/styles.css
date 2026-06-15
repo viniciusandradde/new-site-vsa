@@ -188,7 +188,7 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 22px;
 }
 .hero__sub { color: var(--muted); font-size: clamp(1rem, 2vw, 1.2rem); max-width: 60ch; margin: 0 auto 34px; }
-.hero__actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 64px; }
+.hero__actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
 .hero__stats {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px;
