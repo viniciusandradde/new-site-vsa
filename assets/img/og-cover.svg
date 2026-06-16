@@ -19,7 +19,7 @@
     <path d="M0 0 L40 66 L80 0" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="40" cy="-4" r="9" fill="url(#g)"/>
   </g>
-  <text x="92" y="200" font-family="monospace" font-size="22" fill="#2563EB">// Soluções em tecnologia desde 2014</text>
+  <text x="92" y="200" font-family="monospace" font-size="22" fill="#2563EB">// Inteligência Artificial aplicada · desde 2014</text>
   <text x="90" y="380" font-family="Sora, sans-serif" font-size="64" font-weight="800" fill="#0F172A">VSA <tspan fill="#2563EB">Tecnologia</tspan></text>
-  <text x="92" y="445" font-family="Manrope, sans-serif" font-size="34" fill="#475569">Transformação Digital para o seu negócio</text>
+  <text x="92" y="445" font-family="Manrope, sans-serif" font-size="34" fill="#475569">Inteligência Artificial aplicada ao seu negócio</text>
 </svg>
