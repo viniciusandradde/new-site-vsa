@@ -123,6 +123,25 @@
     });
   }
 
+  /* ---- FAQ: acordeão (single-open) ---- */
+  var faqRows = document.querySelectorAll(".faq-row");
+  faqRows.forEach(function (row) {
+    var btn = row.querySelector(".faq-row__btn");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var willOpen = !row.classList.contains("open");
+      faqRows.forEach(function (other) {
+        if (other !== row) {
+          other.classList.remove("open");
+          var ob = other.querySelector(".faq-row__btn");
+          if (ob) ob.setAttribute("aria-expanded", "false");
+        }
+      });
+      row.classList.toggle("open", willOpen);
+      btn.setAttribute("aria-expanded", String(willOpen));
+    });
+  });
+
   /* ---- Ano dinâmico no footer (sem novas datas no build) ---- */
   // Mantém 2026 caso o ambiente bloqueie Date; atualiza se disponível.
   try {

@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/css/styles.css?v=11" />
+  <link rel="stylesheet" href="/assets/css/styles.css?v=12" />
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -71,6 +71,7 @@
         <a href="#servicos">Serviços</a>
         <a href="#portfolio">Portfólio</a>
         <a href="#planos">Planos</a>
+        <a href="#faq">FAQ</a>
         <a href="#contato">Contato</a>
       </nav>
 
@@ -342,6 +343,120 @@
       </div>
     </section>
 
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq">
+        <header class="section__head reveal">
+          <p class="eyebrow">// Privacidade · Conformidade · Segurança</p>
+          <h2 class="section__title" id="faq-title">IA para crescer — com <span class="grad">governança e segurança</span> desde o primeiro dia</h2>
+          <p class="section__intro">
+            Adotar inteligência artificial não pode custar o controle dos seus dados. Reunimos
+            as dúvidas mais frequentes de gestores sobre privacidade, LGPD e segurança da
+            informação — respondidas com clareza, sem rodeio técnico.
+          </p>
+        </header>
+
+        <div class="ledger reveal">
+
+          <div class="faq-row open">
+            <button class="faq-row__btn" aria-expanded="true" aria-controls="a1" id="q1">
+              <span class="faq-row__q">Os dados da minha empresa serão usados para treinar a IA?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a1" role="region" aria-labelledby="q1">
+              <div class="faq-row__a-inner">
+                <p>Não — e esse é o primeiro ponto que tratamos em qualquer projeto. Existe uma diferença importante entre <strong>usar</strong> um modelo de IA e <strong>entregar seus dados</strong> para que ele seja treinado, e as duas coisas não precisam andar juntas. Trabalhamos com modelos e configurações em que as informações enviadas não alimentam o treinamento de terceiros, e definimos antes do início o que pode ou não sair do seu ambiente. Você continua dono do que é seu, do começo ao fim.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-row">
+            <button class="faq-row__btn" aria-expanded="false" aria-controls="a2" id="q2">
+              <span class="faq-row__q">Como vocês garantem a conformidade com a LGPD?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a2" role="region" aria-labelledby="q2">
+              <div class="faq-row__a-inner">
+                <p>Conformidade não é um documento assinado no fim do projeto: é uma arquitetura que acompanha cada fluxo de dado. Antes de qualquer IA entrar em produção, mapeamos quais dados pessoais a solução vai tocar, com que finalidade e por quanto tempo. A partir daí definimos as bases legais, os controles de acesso e os registros necessários. Nosso trabalho de adequação é orientado pelas referências da <strong>ISO 27001, ISO 27701 e NIST Privacy</strong>, e inclui políticas, análise de risco e acompanhamento contínuo — porque a operação muda, e a governança precisa mudar junto.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-row">
+            <button class="faq-row__btn" aria-expanded="false" aria-controls="a3" id="q3">
+              <span class="faq-row__q">Como ficam protegidos os dados sensíveis — clínicos, financeiros, pessoais?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a3" role="region" aria-labelledby="q3">
+              <div class="faq-row__a-inner">
+                <p>Dado sensível é tratado de forma diferente de dado comum, e isso começa pela <strong>classificação</strong>. Cada informação recebe um nível, e esse nível define para onde ela pode ir e como é processada. O que não precisa ser exposto é anonimizado ou mascarado antes de qualquer envio externo; o que exige proteção máxima permanece em ambiente controlado, com residência de dados no Brasil quando o caso pede. O princípio é simples: a IA recebe apenas o estritamente necessário para a tarefa — nada além disso.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-row">
+            <button class="faq-row__btn" aria-expanded="false" aria-controls="a4" id="q4">
+              <span class="faq-row__q">E se a IA gerar uma resposta errada ou “inventada”? Como isso é controlado?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a4" role="region" aria-labelledby="q4">
+              <div class="faq-row__a-inner">
+                <p>Modelos de IA podem errar, e fingir o contrário seria irresponsável. Por isso não entregamos a IA “solta”. Construímos camadas de validação (<strong>guardrails</strong>) que limitam o que ela pode responder, conectamos a IA às suas fontes reais de informação — para que responda com base nos seus dados, não em suposições — e mantemos rastreabilidade de cada interação. Em fluxos críticos, decisões passam por confirmação humana antes de gerar efeito. A IA assiste a operação; ela não decide sozinha onde o risco não permite.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-row">
+            <button class="faq-row__btn" aria-expanded="false" aria-controls="a5" id="q5">
+              <span class="faq-row__q">Quem, dentro da minha empresa, pode ver o quê?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a5" role="region" aria-labelledby="q5">
+              <div class="faq-row__a-inner">
+                <p>Acesso é governança, não detalhe técnico. Cada usuário enxerga apenas os dados e as funções correspondentes ao seu papel — o financeiro não vê o que é do RH, e assim por diante. Esse isolamento é garantido na própria arquitetura, não só na tela. Além disso, registramos quem acessou o quê e quando, mantendo uma <strong>trilha de auditoria</strong> sempre disponível. Isso protege a sua empresa tanto de ameaças externas quanto de riscos internos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-row">
+            <button class="faq-row__btn" aria-expanded="false" aria-controls="a6" id="q6">
+              <span class="faq-row__q">A IA de vocês segue normas reconhecidas como ISO 27001 e 27701?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a6" role="region" aria-labelledby="q6">
+              <div class="faq-row__a-inner">
+                <p>Sim, e fazemos questão de que governança e segurança andem na frente, não atrás. Nossa atuação em segurança da informação e privacidade é orientada pelas referências da <strong>ISO 27001, ISO 27701, NIST Privacy e GDPR</strong>, traduzidas para a realidade do seu ambiente — corporativo ou hospitalar. Na prática, isso significa políticas claras, controles aplicados de verdade, análise de riscos e auditorias; não conformidade apenas no papel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-row">
+            <button class="faq-row__btn" aria-expanded="false" aria-controls="a7" id="q7">
+              <span class="faq-row__q">Já tenho política de segurança e equipe de TI — a IA se encaixa ou vira um ponto cego?</span>
+              <span class="faq-row__cue" aria-hidden="true">&rsaquo;</span>
+            </button>
+            <div class="faq-row__a" id="a7" role="region" aria-labelledby="q7">
+              <div class="faq-row__a-inner">
+                <p>Encaixa, e é assim que deve ser feito. IA implantada por fora da sua governança é justamente o que cria ponto cego: um sistema que ninguém controla, acessando dados que ninguém mapeou. Nós fazemos o oposto. A solução é desenhada <strong>dentro</strong> das suas políticas existentes, conversa com os seus controles atuais e amplia a sua governança em vez de furá-la. Onde houver lacuna, apontamos; o que já funciona, respeitamos.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="faq__cta reveal">
+          <p class="faq__cta-txt">
+            <b>Quer avaliar IA na sua operação sem abrir mão da segurança?</b>
+            <span>Conte o seu cenário e mostramos onde dá para começar com governança desde o primeiro passo.</span>
+          </p>
+          <a class="btn btn--primary faq__cta-btn" href="#contato" data-whatsapp data-msg="Olá! Quero avaliar IA na minha operação com governança e segurança.">
+            Falar com um especialista
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== CONTATO ===== -->
     <section class="section section--alt" id="contato">
       <div class="container grid-2 contact">
@@ -417,6 +532,7 @@
         <a href="#servicos">Serviços</a>
         <a href="#portfolio">Portfólio</a>
         <a href="#planos">Planos</a>
+        <a href="#faq">FAQ</a>
         <a href="#contato">Contato</a>
       </div>
       <div>
@@ -436,6 +552,10 @@
     </div>
     <div class="container footer__bottom">
       <span>© <span id="year">2026</span> VSA Tecnologia. Todos os direitos reservados.</span>
+      <span class="footer__legal">
+        <a href="/termos-de-uso.html">Termos de Uso</a>
+        <a href="/politica-de-privacidade.html">Política de Privacidade</a>
+      </span>
     </div>
   </footer>
 
@@ -446,6 +566,6 @@
     </svg>
   </a>
 
-  <script src="/assets/js/main.js?v=11" defer></script>
+  <script src="/assets/js/main.js?v=12" defer></script>
 </body>
 </html>
