@@ -459,8 +459,13 @@ a { color: inherit; text-decoration: none; }
 .faq__cta-txt { margin: 0; }
 .faq__cta-txt b { display: block; font-family: var(--font-display); font-weight: 700; font-size: clamp(1.05rem,2vw,1.2rem); color: var(--text); }
 .faq__cta-txt span { display: block; color: var(--muted); font-size: .94rem; margin-top: 5px; max-width: 52ch; }
-.faq__cta-btn { margin-left: auto; }
-@media (max-width: 560px) { .faq__cta-btn { margin-left: 0; width: 100%; } }
+.faq__cta-action { margin-left: auto; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.faq__cta-label { margin: 0; font-weight: 600; color: var(--text); font-size: .92rem; text-align: center; max-width: 32ch; }
+.faq__cta-btn { justify-content: center; }
+@media (max-width: 560px) {
+  .faq__cta-action { margin-left: 0; width: 100%; }
+  .faq__cta-btn { width: 100%; }
+}
 
 /* ---------- Páginas legais ---------- */
 .legal-nav {
